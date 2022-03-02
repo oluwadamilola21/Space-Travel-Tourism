@@ -18,6 +18,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
 
 #home__page {
@@ -25,12 +26,15 @@ body {
     height: 100vh;
 }
 #destination__page {
+    height: 100vh;
     background-image: url("/assets/destination/background-destination-mobile.jpg");
 }
 #technology__page {
+    height: 100vh;
     background-image: url("/assets/technology/background-technology-mobile.jpg");
 }
 #crew__page {
+    height: 100vh;
     background-image: url("/assets/crew/background-crew-mobile.jpg");
 }
 
