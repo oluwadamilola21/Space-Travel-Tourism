@@ -97,3 +97,21 @@ techButtonsContainer.forEach((button, index) => {
 
 
 // YOUR OPEN/CLOSE HAMBURGER MENU GOES HERE
+// OPEN/CLOSE HAMBURGER MENU
+const btn = document.getElementById("btn");
+const btnHamburger = document.querySelector('.open_btn');
+const links = document.querySelector('.header__links2');
+const btnClose = document.querySelector('.close_btn');
+btn.addEventListener('click', function(){
+    console.log("i was clicked")
+    if (links.classList.contains('hide__links')) {
+        links.classList.remove('hide__links')
+        btnClose.style.display = "block"
+        btnHamburger.style.display = "none"
+    }
+    else {
+        links.classList.add('hide__links')
+        btnClose.style.display = "none"
+        btnHamburger.style.display = "block"
+    }
+})
